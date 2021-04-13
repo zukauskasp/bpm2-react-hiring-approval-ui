@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DateTimePicker expect to match latest snapshot 1`] = `
+"<DateTimePicker id=\\"dateTimePickerId\\" selectedDate={{...}} setDate={[Function: setDate]} format=\\"MM/dd/yyyy HH:mm\\" label=\\"Select due date\\" showTodayButton={true} isWeekendsDisabled={false} isHolidaysDisabled={false} isHoursDisabled={false}>
+  <div>
+    <MuiPickersUtilsProvider utils={[Function: DateFnsUtils]}>
+      <ThemeProvider theme={{...}}>
+        <PickerWithState id=\\"dateTimePickerId\\" format=\\"MM/dd/yyyy HH:mm\\" label=\\"Select due date\\" showTodayButton={true} variant=\\"dialog\\" value={{...}} orientation=\\"landscape\\" ToolbarComponent={[Function: ToolbarComponent]} onChange={[Function: onChange]} onAccept={[Function: onAccept]} shouldDisableDate={[Function: disableDates]} minDate={{...}} maxDate={{...}} invalidDateMessage=\\"Invalid Date Format\\" minDateMessage=\\"Date should not be before minimal date\\" maxDateMessage=\\"Date should not be after maximal date\\" allowKeyboardControl={true} openTo=\\"date\\" views={{...}}>
+          <Wrapper variant=\\"dialog\\" InputComponent={[Function: PureDateInput]} DateInputProps={{...}} format=\\"MM/dd/yyyy HH:mm\\" open={false} onClear={[Function: onClear]} onAccept={[Function: onAccept]} onSetToday={[Function: onSetToday]} onDismiss={[Function: onDismiss]} id=\\"dateTimePickerId\\" label=\\"Select due date\\" showTodayButton={true}>
+            <ModalWrapper InputComponent={[Function: PureDateInput]} DateInputProps={{...}} format=\\"MM/dd/yyyy HH:mm\\" open={false} onClear={[Function: onClear]} onAccept={[Function: onAccept]} onSetToday={[Function: onSetToday]} onDismiss={[Function: onDismiss]} id=\\"dateTimePickerId\\" label=\\"Select due date\\" showTodayButton={true} okLabel=\\"OK\\" cancelLabel=\\"Cancel\\" clearLabel=\\"Clear\\" todayLabel=\\"Today\\" clearable={false}>
+              <PureDateInput format=\\"MM/dd/yyyy HH:mm\\" id=\\"dateTimePickerId\\" label=\\"Select due date\\" inputValue=\\"04/15/2022 08:20\\" validationError=\\"\\" openPicker={[Function: openPicker]}>
+                <WithStyles(ForwardRef(TextField)) error={false} helperText=\\"\\" format=\\"MM/dd/yyyy HH:mm\\" id=\\"dateTimePickerId\\" label=\\"Select due date\\" onClick={[Function: openPicker]} value=\\"04/15/2022 08:20\\" variant={[undefined]} InputProps={{...}} onKeyDown={[Function: onKeyDown]}>
+                  <ForwardRef(TextField) classes={{...}} error={false} helperText=\\"\\" format=\\"MM/dd/yyyy HH:mm\\" id=\\"dateTimePickerId\\" label=\\"Select due date\\" onClick={[Function: openPicker]} value=\\"04/15/2022 08:20\\" variant={[undefined]} InputProps={{...}} onKeyDown={[Function: onKeyDown]}>
+                    <WithStyles(ForwardRef(FormControl)) className=\\"MuiTextField-root\\" disabled={false} error={false} fullWidth={false} hiddenLabel={[undefined]} required={false} color=\\"primary\\" variant=\\"standard\\" format=\\"MM/dd/yyyy HH:mm\\" onClick={[Function: openPicker]} onKeyDown={[Function: onKeyDown]}>
+                      <ForwardRef(FormControl) classes={{...}} className=\\"MuiTextField-root\\" disabled={false} error={false} fullWidth={false} hiddenLabel={[undefined]} required={false} color=\\"primary\\" variant=\\"standard\\" format=\\"MM/dd/yyyy HH:mm\\" onClick={[Function: openPicker]} onKeyDown={[Function: onKeyDown]}>
+                        <div className=\\"MuiFormControl-root MuiTextField-root\\" format=\\"MM/dd/yyyy HH:mm\\" onClick={[Function: openPicker]} onKeyDown={[Function: onKeyDown]}>
+                          <WithStyles(ForwardRef(InputLabel)) htmlFor=\\"dateTimePickerId\\" id=\\"dateTimePickerId-label\\">
+                            <ForwardRef(InputLabel) classes={{...}} htmlFor=\\"dateTimePickerId\\" id=\\"dateTimePickerId-label\\">
+                              <WithStyles(ForwardRef(FormLabel)) data-shrink={true} className=\\"MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink\\" classes={{...}} htmlFor=\\"dateTimePickerId\\" id=\\"dateTimePickerId-label\\">
+                                <ForwardRef(FormLabel) classes={{...}} data-shrink={true} className=\\"MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink\\" htmlFor=\\"dateTimePickerId\\" id=\\"dateTimePickerId-label\\">
+                                  <label className=\\"MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled\\" data-shrink={true} htmlFor=\\"dateTimePickerId\\" id=\\"dateTimePickerId-label\\">
+                                    Select due date
+                                  </label>
+                                </ForwardRef(FormLabel)>
+                              </WithStyles(ForwardRef(FormLabel))>
+                            </ForwardRef(InputLabel)>
+                          </WithStyles(ForwardRef(InputLabel))>
+                          <WithStyles(ForwardRef(Input)) aria-describedby={[undefined]} autoComplete={[undefined]} autoFocus={false} defaultValue={[undefined]} fullWidth={false} multiline={false} name={[undefined]} rows={[undefined]} rowsMax={[undefined]} type={[undefined]} value=\\"04/15/2022 08:20\\" id=\\"dateTimePickerId\\" inputRef={[undefined]} onBlur={[undefined]} onChange={[undefined]} onFocus={[undefined]} placeholder={[undefined]} inputProps={[undefined]} readOnly={true}>
+                            <ForwardRef(Input) classes={{...}} aria-describedby={[undefined]} autoComplete={[undefined]} autoFocus={false} defaultValue={[undefined]} fullWidth={false} multiline={false} name={[undefined]} rows={[undefined]} rowsMax={[undefined]} type={[undefined]} value=\\"04/15/2022 08:20\\" id=\\"dateTimePickerId\\" inputRef={[undefined]} onBlur={[undefined]} onChange={[undefined]} onFocus={[undefined]} placeholder={[undefined]} inputProps={[undefined]} readOnly={true}>
+                              <WithStyles(ForwardRef(InputBase)) classes={{...}} fullWidth={false} inputComponent=\\"input\\" multiline={false} type=\\"text\\" aria-describedby={[undefined]} autoComplete={[undefined]} autoFocus={false} defaultValue={[undefined]} name={[undefined]} rows={[undefined]} rowsMax={[undefined]} value=\\"04/15/2022 08:20\\" id=\\"dateTimePickerId\\" inputRef={[undefined]} onBlur={[undefined]} onChange={[undefined]} onFocus={[undefined]} placeholder={[undefined]} inputProps={[undefined]} readOnly={true}>
+                                <ForwardRef(InputBase) classes={{...}} fullWidth={false} inputComponent=\\"input\\" multiline={false} type=\\"text\\" aria-describedby={[undefined]} autoComplete={[undefined]} autoFocus={false} defaultValue={[undefined]} name={[undefined]} rows={[undefined]} rowsMax={[undefined]} value=\\"04/15/2022 08:20\\" id=\\"dateTimePickerId\\" inputRef={[undefined]} onBlur={[undefined]} onChange={[undefined]} onFocus={[undefined]} placeholder={[undefined]} inputProps={[undefined]} readOnly={true}>
+                                  <div className=\\"MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl\\" onClick={[Function: handleClick]}>
+                                    <input aria-invalid={false} aria-describedby={[undefined]} autoComplete={[undefined]} autoFocus={false} defaultValue={[undefined]} disabled={false} id=\\"dateTimePickerId\\" onAnimationStart={[Function: handleAutoFill]} name={[undefined]} placeholder={[undefined]} readOnly={true} required={false} rows={[undefined]} value=\\"04/15/2022 08:20\\" onKeyDown={[undefined]} onKeyUp={[undefined]} type=\\"text\\" className=\\"MuiInputBase-input MuiInput-input\\" onBlur={[Function: handleBlur]} onChange={[Function: handleChange]} onFocus={[Function: handleFocus]} />
+                                  </div>
+                                </ForwardRef(InputBase)>
+                              </WithStyles(ForwardRef(InputBase))>
+                            </ForwardRef(Input)>
+                          </WithStyles(ForwardRef(Input))>
+                        </div>
+                      </ForwardRef(FormControl)>
+                    </WithStyles(ForwardRef(FormControl))>
+                  </ForwardRef(TextField)>
+                </WithStyles(ForwardRef(TextField))>
+              </PureDateInput>
+              <WithStyles(ModalDialog) wider={[undefined]} showTabs={[undefined]} open={false} onClear={[Function: onClear]} onAccept={[Function: onAccept]} onDismiss={[Function: onDismiss]} onSetToday={[Function: onSetToday]} clearLabel=\\"Clear\\" todayLabel=\\"Today\\" okLabel=\\"OK\\" cancelLabel=\\"Cancel\\" clearable={false} showTodayButton={true}>
+                <ModalDialog classes={{...}} wider={[undefined]} showTabs={[undefined]} open={false} onClear={[Function: onClear]} onAccept={[Function: onAccept]} onDismiss={[Function: onDismiss]} onSetToday={[Function: onSetToday]} clearLabel=\\"Clear\\" todayLabel=\\"Today\\" okLabel=\\"OK\\" cancelLabel=\\"Cancel\\" clearable={false} showTodayButton={true}>
+                  <WithStyles(ForwardRef(Dialog)) role=\\"dialog\\" onClose={[Function: onDismiss]} classes={{...}} open={false}>
+                    <ForwardRef(Dialog) classes={{...}} role=\\"dialog\\" onClose={[Function: onDismiss]} open={false}>
+                      <ForwardRef(Modal) className=\\"MuiDialog-root\\" BackdropComponent={{...}} BackdropProps={{...}} closeAfterTransition={true} disableBackdropClick={false} disableEscapeKeyDown={false} onEscapeKeyDown={[undefined]} onClose={[Function: onDismiss]} open={false} role=\\"dialog\\" />
+                    </ForwardRef(Dialog)>
+                  </WithStyles(ForwardRef(Dialog))>
+                </ModalDialog>
+              </WithStyles(ModalDialog)>
+            </ModalWrapper>
+          </Wrapper>
+        </PickerWithState>
+      </ThemeProvider>
+    </MuiPickersUtilsProvider>
+  </div>
+</DateTimePicker>"
+`;

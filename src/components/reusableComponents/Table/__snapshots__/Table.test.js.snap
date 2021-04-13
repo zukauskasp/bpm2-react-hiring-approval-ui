@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table expect to match latest snapshot 1`] = `
+"<WithStyles(ForwardRef(Paper)) elevation={0}>
+  <WithStyles(ForwardRef(TableContainer))>
+    <WithStyles(ForwardRef(Table)) className=\\"makeStyles-table-1\\">
+      <WithStyles(ForwardRef(TableHead))>
+        <WithStyles(ForwardRef(TableRow))>
+          <TableData size=\\"small\\" padding=\\"checkbox\\" />
+          <TableData title=\\"Job description\\">
+            Job description
+          </TableData>
+          <TableData title=\\"Departament longer title\\">
+            Departament longer title
+          </TableData>
+          <TableData title=\\"Position\\">
+            Position
+          </TableData>
+          <TableData title=\\"Salary (range)\\">
+            Salary (range)
+          </TableData>
+          <TableData title=\\"Start date\\">
+            Start date
+          </TableData>
+          <TableData />
+          <TableData />
+        </WithStyles(ForwardRef(TableRow))>
+      </WithStyles(ForwardRef(TableHead))>
+      <WithStyles(ForwardRef(TableBody))>
+        <WithStyles(WithStyles(ForwardRef(TableRow)))>
+          <TableData size=\\"small\\">
+            <CustomCheckbox value={false} checked={false} onChange={[Function: onChange]} readonly={false} errorMessage=\\"\\" label=\\"\\" />
+          </TableData>
+          <TableData className=\\"\\" title=\\"Softwere engineer\\">
+            Softwere engineer
+          </TableData>
+          <TableData className=\\"\\" title=\\"Test departament\\">
+            Test departament
+          </TableData>
+          <TableData className=\\"\\" title=\\"SENIOR\\">
+            SENIOR
+          </TableData>
+          <TableData className=\\"\\" title=\\"2000-3000 EUR\\">
+            2000-3000 EUR
+          </TableData>
+          <TableData className=\\"full-width-table-cell\\" title=\\"2020-03-20\\">
+            2020-03-20
+          </TableData>
+          <TableData size=\\"small\\">
+            <Icon alt=\\"\\" className=\\"makeStyles-icon-2\\" icon=\\"edit\\" onClick={[Function: onClick]} color=\\"dark\\" />
+          </TableData>
+          <TableData size=\\"small\\">
+            <Icon alt=\\"\\" className=\\"makeStyles-icon-2\\" icon=\\"trash\\" onClick={[Function: onClick]} color=\\"dark\\" />
+          </TableData>
+        </WithStyles(WithStyles(ForwardRef(TableRow)))>
+        <WithStyles(WithStyles(ForwardRef(TableRow)))>
+          <TableData size=\\"small\\">
+            <CustomCheckbox value={false} checked={false} onChange={[Function: onChange]} readonly={false} errorMessage=\\"\\" label=\\"\\" />
+          </TableData>
+          <TableData className=\\"\\" title=\\"Softwere engineer\\">
+            Softwere engineer
+          </TableData>
+          <TableData className=\\"\\" title=\\"Test departament\\">
+            Test departament
+          </TableData>
+          <TableData className=\\"\\" title=\\"JUNIOR\\">
+            JUNIOR
+          </TableData>
+          <TableData className=\\"\\" title=\\"2000-3000 EUR\\">
+            2000-3000 EUR
+          </TableData>
+          <TableData className=\\"full-width-table-cell\\" title=\\"2020-03-20\\">
+            2020-03-20
+          </TableData>
+          <TableData size=\\"small\\">
+            <Icon alt=\\"\\" className=\\"makeStyles-icon-2\\" icon=\\"edit\\" onClick={[Function: onClick]} color=\\"dark\\" />
+          </TableData>
+          <TableData size=\\"small\\">
+            <Icon alt=\\"\\" className=\\"makeStyles-icon-2\\" icon=\\"trash\\" onClick={[Function: onClick]} color=\\"dark\\" />
+          </TableData>
+        </WithStyles(WithStyles(ForwardRef(TableRow)))>
+        <WithStyles(WithStyles(ForwardRef(TableRow)))>
+          <TableData size=\\"small\\">
+            <CustomCheckbox value={false} checked={false} onChange={[Function: onChange]} readonly={false} errorMessage=\\"\\" label=\\"\\" />
+          </TableData>
+          <TableData className=\\"\\" title=\\"Softwere engineer\\">
+            Softwere engineer
+          </TableData>
+          <TableData className=\\"\\" title=\\"Test departament\\">
+            Test departament
+          </TableData>
+          <TableData className=\\"\\" title=\\"MID\\">
+            MID
+          </TableData>
+          <TableData className=\\"\\" title=\\"2000-3000 EUR\\">
+            2000-3000 EUR
+          </TableData>
+          <TableData className=\\"full-width-table-cell\\" title=\\"2020-03-20\\">
+            2020-03-20
+          </TableData>
+          <TableData size=\\"small\\">
+            <Icon alt=\\"\\" className=\\"makeStyles-icon-2\\" icon=\\"edit\\" onClick={[Function: onClick]} color=\\"dark\\" />
+          </TableData>
+          <TableData size=\\"small\\">
+            <Icon alt=\\"\\" className=\\"makeStyles-icon-2\\" icon=\\"trash\\" onClick={[Function: onClick]} color=\\"dark\\" />
+          </TableData>
+        </WithStyles(WithStyles(ForwardRef(TableRow)))>
+        <WithStyles(WithStyles(ForwardRef(TableRow)))>
+          <TableData size=\\"small\\">
+            <CustomCheckbox value={false} checked={false} onChange={[Function: onChange]} readonly={false} errorMessage=\\"\\" label=\\"\\" />
+          </TableData>
+          <TableData className=\\"\\" title=\\"Softwere engineer khlgk jgkfld\\">
+            Softwere engineer khlgk jgkfld
+          </TableData>
+          <TableData className=\\"\\" title=\\"Test departament\\">
+            Test departament
+          </TableData>
+          <TableData className=\\"\\" title=\\"MID\\">
+            MID
+          </TableData>
+          <TableData className=\\"\\" title=\\"2000-3000 EUR 111111111\\">
+            2000-3000 EUR 111111111
+          </TableData>
+          <TableData className=\\"full-width-table-cell\\" title=\\"2020-03-20\\">
+            2020-03-20
+          </TableData>
+          <TableData size=\\"small\\">
+            <Icon alt=\\"\\" className=\\"makeStyles-icon-2\\" icon=\\"edit\\" onClick={[Function: onClick]} color=\\"dark\\" />
+          </TableData>
+          <TableData size=\\"small\\">
+            <Icon alt=\\"\\" className=\\"makeStyles-icon-2\\" icon=\\"trash\\" onClick={[Function: onClick]} color=\\"dark\\" />
+          </TableData>
+        </WithStyles(WithStyles(ForwardRef(TableRow)))>
+        <WithStyles(WithStyles(ForwardRef(TableRow)))>
+          <TableData size=\\"small\\">
+            <CustomCheckbox value={false} checked={false} onChange={[Function: onChange]} readonly={false} errorMessage=\\"\\" label=\\"\\" />
+          </TableData>
+          <TableData className=\\"\\" title=\\"Softwere engineer\\">
+            Softwere engineer
+          </TableData>
+          <TableData className=\\"\\" title=\\"Test departament\\">
+            Test departament
+          </TableData>
+          <TableData className=\\"\\" title=\\"SENIOR\\">
+            SENIOR
+          </TableData>
+          <TableData className=\\"\\" title=\\"2000-3000 EUR\\">
+            2000-3000 EUR
+          </TableData>
+          <TableData className=\\"full-width-table-cell\\" title=\\"2020-03-20\\">
+            2020-03-20
+          </TableData>
+          <TableData size=\\"small\\">
+            <Icon alt=\\"\\" className=\\"makeStyles-icon-2\\" icon=\\"edit\\" onClick={[Function: onClick]} color=\\"dark\\" />
+          </TableData>
+          <TableData size=\\"small\\">
+            <Icon alt=\\"\\" className=\\"makeStyles-icon-2\\" icon=\\"trash\\" onClick={[Function: onClick]} color=\\"dark\\" />
+          </TableData>
+        </WithStyles(WithStyles(ForwardRef(TableRow)))>
+      </WithStyles(ForwardRef(TableBody))>
+    </WithStyles(ForwardRef(Table))>
+  </WithStyles(ForwardRef(TableContainer))>
+  <Pagination resultsCount={8} rowsPerPage={5} setRowsPerPage={[Function: bound _dispatchAction]} page={1} setPage={[Function: bound _dispatchAction]} onChangeRowsPerPage={[Function: handleChangeRowsPerPage]} filteredDataCount={5} rowsPerPageOptions={{...}} />
+</WithStyles(ForwardRef(Paper))>"
+`;

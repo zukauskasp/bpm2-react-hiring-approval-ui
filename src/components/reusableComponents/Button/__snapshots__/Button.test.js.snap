@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button expect to match latest snapshot 1`] = `
+"<Button icon=\\"add\\" buttonType=\\"secondary\\" onClickEvent={[Function: onClickEvent]} background=\\"light\\" text=\\"\\">
+  <div onClick={[Function: onClickEvent]} className=\\"customButton\\\\n                 makeStyles-customSecondaryButton-2\\\\n                 \\\\n                 \\\\n                 makeStyles-buttonWithIcon-4\\\\n                 makeStyles-roundButton-6\\\\n                 \\">
+    <Icon color=\\"dark\\" icon=\\"add\\" className=\\"basicIcon  \\">
+      <img alt=\\"\\" src=\\"/assets/icons/add/dark.svg\\" className=\\"basicIcon  \\" />
+    </Icon>
+  </div>
+</Button>"
+`;

@@ -1,0 +1,81 @@
+.form-group {
+    margin-bottom: 24px;
+    position: relative;
+    width: 280px;
+
+    .form-control {
+        font-family: 'Danske Text v2';
+        color: #003755;
+        height: 48px;
+        display: block;
+        width: 100%;
+        padding: .375rem .75rem;
+        font-size: 16px;
+        line-height: 48px;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: .25rem;
+        transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+
+        &:focus {
+            border-color: rgb(0, 159, 218);
+            outline: 0 none;
+        }
+
+        ::placeholder {
+            color: #7F9BAA;
+        }
+    }
+
+    .textArea {
+        font-family: 'Danske Text v2';
+        display: block;
+        width: 100%;
+        padding: .375rem .75rem;
+        font-size: 16px;
+        height: 96px;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: .25rem;
+        transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+
+        &:focus {
+            border-color: rgb(0, 159, 218);
+            outline: 0 none;
+        }
+
+        ::placeholder {
+            color: #7F9BAA;
+        }
+    }
+
+    .readOnly {
+        color: #7F9BAA;
+        cursor: no-drop;
+
+        &:focus {
+            border: 1px solid #ced4da;
+        }
+
+        ::placeholder {
+            color: #7F9BAA;
+        }
+    }
+
+    label {
+        font-family: 'Danske Text v2';
+        display: inline-block;
+        margin-bottom: 8px;
+        font-size: 14px;
+        color: #003755;
+    }
+
+    .readOnlyLabel {
+        color: #7F9BAA;
+        cursor: default;
+    }
+}

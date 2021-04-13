@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Message expect to match latest snapshot 1`] = `
+"<Message type=\\"success\\" text=\\"This is text\\" onClick={[Function: onClick]}>
+  <div className=\\"notification-wrapper success-message\\">
+    <Icon icon=\\"check\\" color=\\"white\\" className=\\"icon grid-item-first\\">
+      <img alt=\\"\\" src=\\"/assets/icons/check/white.svg\\" className=\\"icon grid-item-first\\" />
+    </Icon>
+    <span className=\\"grid-item-second\\">
+      This is text
+    </span>
+    <Icon icon=\\"remove\\" color=\\"white\\" onClick={[Function: onClick]} className=\\"icon icon-remove grid-item-third \\">
+      <img alt=\\"\\" src=\\"/assets/icons/remove/white.svg\\" onClick={[Function: onClick]} className=\\"icon icon-remove grid-item-third \\" />
+    </Icon>
+  </div>
+</Message>"
+`;

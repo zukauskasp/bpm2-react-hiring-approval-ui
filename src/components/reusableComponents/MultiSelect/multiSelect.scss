@@ -1,0 +1,145 @@
+.formControl {
+    margin-bottom: 24px;
+}
+
+.inputWrapper {
+    width: 280px;
+    font-family: 'Danske Text v2';
+    font-weight: 700;
+    border: 1px solid #ced4da;
+    background-color: #fff;
+    border-radius: .25rem;
+    padding: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1;
+
+    &:hover {
+        border-color: #40a9ff;
+    }
+
+    &.focused {
+        border-color: #40a9ff;
+    }
+
+    & input {
+        font-size: 14px;
+        height: 48px;
+        line-height: 48px;
+        padding: 2px 6px;
+        width: 0;
+        flex-grow: 1;
+        border: 0;
+        outline: 0;
+    }
+}
+
+label {
+    font-family: 'Danske Text v2';
+    display: inline-block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #003755;
+}
+
+.tag {
+    display: flex;
+    align-items: center;
+    height: 36px;
+    line-height: 30px;
+    margin: 6px 3px 0 3px;
+    background-color: #C5C8CB;
+    border: 1px solid #e8e8e8;
+    border-radius: 2px;
+    box-sizing: content-box;
+    padding: 0 4px 0 10px;
+    outline: 0;
+    overflow: hidden;
+    color: #003755;
+    font-size: 12px;
+
+    &:focus {
+        border-color: #40a9ff;
+        background-color: #e6f7ff;
+    }
+
+    & span {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}
+
+.rootElement {
+    position: relative;
+    width: 280px;
+
+    .listBoxWrapper {
+        z-index: 3;
+
+        &:after {
+            content: "\A";
+            position: absolute;
+            transform: translate(50%, 160%);
+            bottom: 0%;
+            left: 80%;
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-bottom: 10px solid #e8e8e8;
+        }
+
+        &:before {
+            content: "\A";
+            position: absolute;
+            transform: translate(50%, 180%);
+            bottom: 0%;
+            left: 81%;
+            width: 0;
+            height: 0;
+            border-left: 9px solid transparent;
+            border-right: 9px solid transparent;
+            border-bottom: 9px solid #fff;
+            z-index: 4;
+
+        }
+
+        .listBox {
+            width: 280px;
+            padding: 0;
+            top: 100%;
+            list-style: none;
+            background-color: #fff;
+            overflow: auto;
+            max-height: 250px;
+            border-radius: 4px;
+            z-index: 2;
+            position: absolute;
+            border: 1px solid #e8e8e8;
+
+            & li {
+                font-size: 14px;
+                height: 48px;
+                padding: 5px 12px;
+                margin: 1px;
+                display: flex;
+                align-items: center;
+                color: #003755;
+
+                & span {
+                    flex-grow: 1;
+                }
+            }
+
+            & li[aria-selected='true'] {
+                background-color: #C5C8CB;
+            }
+
+            & li[data-focus='true'] {
+                background-color: #C5C8CB;
+                cursor: pointer;
+            }
+        }
+    }
+}

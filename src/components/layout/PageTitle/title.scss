@@ -1,0 +1,14 @@
+.titleArea{
+    background: #003755;
+    height: 80px;
+
+    > h3 {
+        /* padding-left: 26px; 
+        padding-bottom: 24px; */
+        padding-left:20px;
+        font: italic 500 25px/80px 'Danske Human Medium',sans-serif;
+        font-stretch: normal;
+        letter-spacing: normal;
+        color: #FFF;
+    }
+}

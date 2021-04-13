@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabsComponent expect to match latest snapshot 1`] = `
+"<div className=\\"makeStyles-root-1\\">
+  <WithStyles(ForwardRef(AppBar)) position=\\"static\\" className=\\"makeStyles-appBar-2\\">
+    <WithStyles(ForwardRef(Tabs)) classes={{...}} value={0} onChange={[Function: handleChange]} aria-label=\\"simple tabs example\\">
+      <WithStyles(ForwardRef(Tab)) classes={{...}} label=\\"First tab\\" />
+      <WithStyles(ForwardRef(Tab)) classes={{...}} label=\\"Second tab\\" />
+    </WithStyles(ForwardRef(Tabs))>
+  </WithStyles(ForwardRef(AppBar))>
+  <TabPanel value={0} index={0}>
+    <firstTab taskId=\\"1\\" />
+  </TabPanel>
+  <TabPanel value={0} index={1}>
+    <SecondTab taskId=\\"1\\" />
+  </TabPanel>
+</div>"
+`;

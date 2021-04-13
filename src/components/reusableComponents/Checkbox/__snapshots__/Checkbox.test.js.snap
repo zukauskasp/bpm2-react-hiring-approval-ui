@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox expect to match latest snapshot 1`] = `
+"<CustomCheckbox errorMessage=\\"Error message\\" label=\\"label\\" onChange={[Function: onChange]} readonly={false} value={false}>
+  <div>
+    <WithStyles(ForwardRef(FormGroup)) row={true}>
+      <ForwardRef(FormGroup) classes={{...}} row={true}>
+        <div className=\\"MuiFormGroup-root MuiFormGroup-row\\">
+          <WithStyles(ForwardRef(FormControlLabel)) control={{...}} label={{...}} className=\\"makeStyles-margin-4\\">
+            <ForwardRef(FormControlLabel) classes={{...}} control={{...}} label={{...}} className=\\"makeStyles-margin-4\\">
+              <label className=\\"MuiFormControlLabel-root makeStyles-margin-4\\">
+                <WithStyles(ForwardRef(Checkbox)) className=\\"makeStyles-customPrimaryCheckbox-2\\" checked={false} onChange={[Function: onChange]} value={false} disabled={false}>
+                  <ForwardRef(Checkbox) classes={{...}} className=\\"makeStyles-customPrimaryCheckbox-2\\" checked={false} onChange={[Function: onChange]} value={false} disabled={false}>
+                    <WithStyles(ForwardRef(SwitchBase)) type=\\"checkbox\\" classes={{...}} color=\\"secondary\\" inputProps={{...}} icon={{...}} checkedIcon={{...}} className=\\"makeStyles-customPrimaryCheckbox-2\\" checked={false} onChange={[Function: onChange]} value={false} disabled={false}>
+                      <ForwardRef(SwitchBase) classes={{...}} type=\\"checkbox\\" color=\\"secondary\\" inputProps={{...}} icon={{...}} checkedIcon={{...}} className=\\"makeStyles-customPrimaryCheckbox-2\\" checked={false} onChange={[Function: onChange]} value={false} disabled={false}>
+                        <WithStyles(ForwardRef(IconButton)) component=\\"span\\" className=\\"PrivateSwitchBase-root-19 MuiCheckbox-root MuiCheckbox-colorSecondary makeStyles-customPrimaryCheckbox-2\\" disabled={false} tabIndex={{...}} role={[undefined]} onFocus={[Function: handleFocus]} onBlur={[Function: handleBlur]} color=\\"secondary\\">
+                          <ForwardRef(IconButton) classes={{...}} component=\\"span\\" className=\\"PrivateSwitchBase-root-19 MuiCheckbox-root MuiCheckbox-colorSecondary makeStyles-customPrimaryCheckbox-2\\" disabled={false} tabIndex={{...}} role={[undefined]} onFocus={[Function: handleFocus]} onBlur={[Function: handleBlur]} color=\\"secondary\\">
+                            <WithStyles(ForwardRef(ButtonBase)) className=\\"MuiIconButton-root PrivateSwitchBase-root-19 MuiCheckbox-root MuiCheckbox-colorSecondary makeStyles-customPrimaryCheckbox-2 MuiIconButton-colorSecondary\\" centerRipple={true} focusRipple={true} disabled={false} component=\\"span\\" tabIndex={{...}} role={[undefined]} onFocus={[Function: handleFocus]} onBlur={[Function: handleBlur]}>
+                              <ForwardRef(ButtonBase) classes={{...}} className=\\"MuiIconButton-root PrivateSwitchBase-root-19 MuiCheckbox-root MuiCheckbox-colorSecondary makeStyles-customPrimaryCheckbox-2 MuiIconButton-colorSecondary\\" centerRipple={true} focusRipple={true} disabled={false} component=\\"span\\" tabIndex={{...}} role={[undefined]} onFocus={[Function: handleFocus]} onBlur={[Function: handleBlur]}>
+                                <span className=\\"MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-19 MuiCheckbox-root MuiCheckbox-colorSecondary makeStyles-customPrimaryCheckbox-2 MuiIconButton-colorSecondary\\" onBlur={[Function]} onClick={[undefined]} onFocus={[Function]} onKeyDown={[Function]} onKeyUp={[Function]} onMouseDown={[Function]} onMouseLeave={[Function]} onMouseUp={[Function]} onDragLeave={[Function]} onTouchEnd={[Function]} onTouchMove={[Function]} onTouchStart={[Function]} tabIndex={{...}} role={[undefined]} aria-disabled={false}>
+                                  <span className=\\"MuiIconButton-label\\">
+                                    <input autoFocus={[undefined]} checked={false} defaultChecked={[undefined]} className=\\"PrivateSwitchBase-input-22\\" disabled={false} id={[undefined]} name={[undefined]} onChange={[Function: handleInputChange]} readOnly={[undefined]} required={[undefined]} tabIndex={[undefined]} type=\\"checkbox\\" value={false} data-indeterminate={false} />
+                                    <ForwardRef fontSize=\\"default\\">
+                                      <WithStyles(ForwardRef(SvgIcon)) fontSize=\\"default\\">
+                                        <ForwardRef(SvgIcon) classes={{...}} fontSize=\\"default\\">
+                                          <svg className=\\"MuiSvgIcon-root\\" focusable=\\"false\\" viewBox=\\"0 0 24 24\\" color={[undefined]} aria-hidden=\\"true\\" role=\\"presentation\\">
+                                            <path d=\\"M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z\\" />
+                                          </svg>
+                                        </ForwardRef(SvgIcon)>
+                                      </WithStyles(ForwardRef(SvgIcon))>
+                                    </ForwardRef>
+                                  </span>
+                                  <NoSsr>
+                                    <WithStyles(memo) center={true}>
+                                      <ForwardRef(TouchRipple) classes={{...}} center={true}>
+                                        <span className=\\"MuiTouchRipple-root\\">
+                                          <TransitionGroup component={{...}} exit={true} childFactory={[Function: childFactory]} />
+                                        </span>
+                                      </ForwardRef(TouchRipple)>
+                                    </WithStyles(memo)>
+                                  </NoSsr>
+                                </span>
+                              </ForwardRef(ButtonBase)>
+                            </WithStyles(ForwardRef(ButtonBase))>
+                          </ForwardRef(IconButton)>
+                        </WithStyles(ForwardRef(IconButton))>
+                      </ForwardRef(SwitchBase)>
+                    </WithStyles(ForwardRef(SwitchBase))>
+                  </ForwardRef(Checkbox)>
+                </WithStyles(ForwardRef(Checkbox))>
+                <WithStyles(ForwardRef(Typography)) component=\\"span\\" className=\\"MuiFormControlLabel-label\\">
+                  <ForwardRef(Typography) classes={{...}} component=\\"span\\" className=\\"MuiFormControlLabel-label\\">
+                    <span className=\\"MuiTypography-root MuiFormControlLabel-label MuiTypography-body1\\">
+                      <WithStyles(ForwardRef(Typography)) component=\\"p\\" className=\\"makeStyles-customLabel-1\\">
+                        <ForwardRef(Typography) classes={{...}} component=\\"p\\" className=\\"makeStyles-customLabel-1\\">
+                          <p className=\\"MuiTypography-root makeStyles-customLabel-1 MuiTypography-body1\\">
+                            label
+                          </p>
+                        </ForwardRef(Typography)>
+                      </WithStyles(ForwardRef(Typography))>
+                    </span>
+                  </ForwardRef(Typography)>
+                </WithStyles(ForwardRef(Typography))>
+              </label>
+            </ForwardRef(FormControlLabel)>
+          </WithStyles(ForwardRef(FormControlLabel))>
+        </div>
+      </ForwardRef(FormGroup)>
+    </WithStyles(ForwardRef(FormGroup))>
+    <Message text=\\"Error message\\" messageType=\\"error\\" position=\\"top-left\\">
+      <div className=\\"tooltip tooltip-error tooltip-top-left\\">
+        Error message
+         
+      </div>
+    </Message>
+  </div>
+</CustomCheckbox>"
+`;

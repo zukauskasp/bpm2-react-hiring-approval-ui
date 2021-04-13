@@ -1,0 +1,108 @@
+.tooltip {
+    position: relative;
+    left: 0;
+    top: 110%;
+    color: white;
+    min-height: 48px;
+    font-size: 14px;
+    width: 280px;
+    padding: 0 .8rem;
+    margin-top: 10px;
+    padding: 15px;
+
+    &:before {
+        content: "\A";
+        position: absolute;
+        width: 0;
+        height: 0;
+    }
+}
+
+.tooltip-default {
+    background: #003755;
+
+    &:before {
+        border: 10px solid #003755;
+    }
+}
+
+.tooltip-error {
+    background: #FBB273;
+
+    &:before {
+        border: 10px solid #FBB273;
+    }
+}
+
+.tooltip-success {
+    background: #09B89D;
+
+    &:before {
+        border: 10px solid #09B89D;
+    }
+
+}
+
+.tooltip-top-left:before {
+    bottom: 100%;
+    border-top: none;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+
+}
+
+.tooltip-top:before {
+    bottom: 100%;
+    left: 45%;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: none;
+}
+
+.tooltip-top-right:before {
+    bottom: 100%;
+    left: 90%;
+    border-top: none;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+
+
+.tooltip-bottom-left:before {
+    bottom: -20%;
+    border-bottom: none;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+
+.tooltip-bottom:before {
+    bottom: -20%;
+    left: 45%;
+    border-bottom: none;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+
+.tooltip-bottom-right:before {
+    bottom: -20%;
+    left: 90%;
+    border-bottom: none;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+
+.tooltip-right:before {
+    bottom: 26%;
+    left: 100%;
+    border-right: none;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+
+.tooltip-left:before {
+    bottom: 26%;
+    right: 100%;
+    border-left: none;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}

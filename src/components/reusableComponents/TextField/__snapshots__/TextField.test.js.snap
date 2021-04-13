@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextField expect to match latest snapshot 1`] = `
+"<div className=\\"form-group\\">
+  <label className=\\"null\\" htmlFor={[undefined]}>
+    enter number
+     
+  </label>
+  <input type=\\"number\\" name={[undefined]} className=\\"form-control  null\\" value={[undefined]} placeholder={[undefined]} onChange={[Function: onChange]} readOnly={[undefined]} />
+  <Message text=\\"Error message\\" messageType=\\"error\\" position=\\"top-left\\" />
+</div>"
+`;

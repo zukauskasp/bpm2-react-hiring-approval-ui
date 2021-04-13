@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MultiSelect expect to match latest snapshot 1`] = `
+"<div className=\\"rootElement\\">
+  <div aria-owns={{...}} role=\\"combobox\\" aria-expanded={false} onKeyDown={[Function]} onMouseDown={[Function: handleMouseDown]} onClick={[Function: handleClick]}>
+    <label>
+      Select number
+    </label>
+    <div className=\\"inputWrapper \\">
+      <input id={[undefined]} value=\\"\\" onBlur={[Function: handleBlur]} onFocus={[Function: handleFocus]} onChange={[Function: handleInputChange]} onMouseDown={[Function: handleInputMouseDown]} aria-activedescendant={{...}} aria-autocomplete=\\"list\\" aria-controls={{...}} autoComplete=\\"off\\" autoCapitalize=\\"none\\" spellCheck=\\"false\\" />
+    </div>
+  </div>
+  <Message text=\\"Error message\\" messageType=\\"error\\" position=\\"top-left\\" />
+</div>"
+`;

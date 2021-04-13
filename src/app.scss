@@ -1,0 +1,108 @@
+$borderColor: #bfcdd4;
+$sideMargin20px: 20px;
+$sideMargin5px: 5px;
+
+.appGrid {
+  display: grid;
+  grid-template-columns: 1fr 20%;
+}
+
+.title {
+  grid-area: title;
+  margin-left: $sideMargin20px;
+  margin-right: $sideMargin20px;
+}
+
+.stepsArea {
+  grid-area: stepsArea;
+  margin-top: $sideMargin5px;
+  margin-right: $sideMargin20px;
+}
+
+.supportArea {
+  grid-area: supportArea;
+  margin-top: $sideMargin5px;
+  margin-right: $sideMargin20px;
+  margin-left: $sideMargin20px;
+
+  background-color: white;
+  border-style: solid;
+  border-width: 2px;
+  border-color: $borderColor;
+}
+
+.idArea {
+  grid-area: idArea;
+  margin-top: $sideMargin5px;
+  margin-bottom: $sideMargin5px;
+  margin-left: $sideMargin20px;
+  margin-right: $sideMargin20px;
+}
+
+.mainArea {
+  grid-area: mainArea;
+  margin-left: $sideMargin20px;
+  margin-right: $sideMargin20px;
+  padding: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: $borderColor;
+  min-height: 600px;
+  background-color: white;
+}
+
+.actionControlArea {
+  grid-area: actionControlArea;
+  margin-left: $sideMargin20px;
+  margin-right: $sideMargin20px;
+  margin-bottom: $sideMargin20px;
+}
+
+.spinnerArea {
+  grid-area: spinnerArea;
+}
+
+@media (max-width: 1300px) {
+  .appGrid {
+    grid-template-areas:
+      "title title"
+      "stepsArea stepsArea"
+      "idArea idArea"
+      "supportArea supportArea"
+      "mainArea mainArea"
+      "actionControlArea actionControlArea"
+      "spinnerArea .";
+  }
+  .supportArea {
+    margin-left: $sideMargin20px;
+    margin-bottom: $sideMargin5px;
+  }
+
+  .actionControlArea {
+    margin-right: $sideMargin20px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .appGrid {
+    grid-template-areas:
+      "title title"
+      "stepsArea supportArea"
+      "idArea supportArea"
+      "mainArea supportArea"
+      "actionControlArea .";
+  }
+
+  .actionControlArea {
+    margin-right: 0px;
+  }
+
+  .mainArea {
+    margin-right: 0px;
+    max-width: 79vw;
+  }
+
+  .idArea {
+    margin-right: 0px;
+  }
+}

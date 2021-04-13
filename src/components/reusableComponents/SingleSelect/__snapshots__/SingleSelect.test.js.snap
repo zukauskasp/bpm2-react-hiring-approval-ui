@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SingleSelect expect to match latest snapshot 1`] = `
+"<WithStyles(ForwardRef(FormControl)) className=\\"makeStyles-formWrapper-1 formWrapper\\">
+  <label className=\\"makeStyles-label-2\\">
+    Select number
+     
+  </label>
+  <WithStyles(ForwardRef(NativeSelect)) value={[undefined]} onChange={[Function: onChange]} onClick={[Function: handleSelectArrows]} input={{...}} IconComponent={{...}}>
+    <option value=\\"1\\">
+       
+      one
+    </option>
+    <option value=\\"2\\">
+       
+      two
+    </option>
+    <option value=\\"3\\">
+       
+      three
+    </option>
+  </WithStyles(ForwardRef(NativeSelect))>
+  <Message text=\\"Error message\\" messageType=\\"error\\" position=\\"top-left\\" />
+</WithStyles(ForwardRef(FormControl))>"
+`;

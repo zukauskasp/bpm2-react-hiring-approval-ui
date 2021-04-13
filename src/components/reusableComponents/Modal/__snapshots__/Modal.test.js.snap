@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal expect to match latest snapshot 1`] = `
+"<Modal onSubmit={[Function: onSubmit]} title=\\"title\\" onClose={[Function: onClose]} submitButtonText=\\"Submit\\" open={false}>
+  <WithStyles(ForwardRef(Dialog)) onClose={[Function: onClose]} open={false} maxWidth={false}>
+    <ForwardRef(Dialog) classes={{...}} onClose={[Function: onClose]} open={false} maxWidth={false}>
+      <ForwardRef(Modal) className=\\"MuiDialog-root\\" BackdropComponent={{...}} BackdropProps={{...}} closeAfterTransition={true} disableBackdropClick={false} disableEscapeKeyDown={false} onEscapeKeyDown={[undefined]} onClose={[Function: onClose]} open={false} />
+    </ForwardRef(Dialog)>
+  </WithStyles(ForwardRef(Dialog))>
+</Modal>"
+`;

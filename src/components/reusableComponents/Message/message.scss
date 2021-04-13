@@ -1,0 +1,59 @@
+.notification-wrapper {
+    height: 92px;
+    width: 100%;
+    color: white;
+    font-size: 22px;
+    line-height: 92px;
+    font-family: DanskeHuman;
+    font-weight: 500;
+    font-style: italic;
+    display: inline-grid;
+
+    .icon {
+        height: 1em;
+        overflow: visible;
+        vertical-align: -0.2em;
+        width: 1em;
+        margin: auto;
+    }
+
+    .icon-remove {
+        cursor: pointer;
+    }
+
+    .grid-item-first {
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+
+    .grid-item-second {
+        grid-column-start: 2;
+        grid-column-end: 10;
+    }
+
+    .grid-item-third {
+        grid-column-start: 12;
+        grid-column-end: 12;
+    }
+}
+
+.error-message {
+    background: #E65A6D;
+}
+
+.warning-message {
+    background: #FBB273;
+}
+
+.success-message {
+    background: #09B89D;
+}
+
+.info-message {
+    background: #6DBACE;
+}
+
+.default-message {
+    background: #003755;
+
+}

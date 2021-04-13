@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadioButton expect to match latest snapshot 1`] = `
+"<WithStyles(ForwardRef(FormControl)) className=\\"makeStyles-formControl-1\\">
+  <WithStyles(ForwardRef(FormLabel)) className=\\"makeStyles-customLabel-2\\">
+    Select number
+  </WithStyles(ForwardRef(FormLabel))>
+  <ForwardRef(RadioGroup)>
+    <WithStyles(ForwardRef(FormControlLabel)) value=\\"1\\" control={{...}} label=\\"one\\" disabled={false} className=\\"makeStyles-customLabel-2 makeStyles-radioLabel-3\\" onChange={[Function: onChange]} checked={false} />
+    <WithStyles(ForwardRef(FormControlLabel)) value=\\"2\\" control={{...}} label=\\"two\\" disabled={false} className=\\"makeStyles-customLabel-2 makeStyles-radioLabel-3\\" onChange={[Function: onChange]} checked={false} />
+    <WithStyles(ForwardRef(FormControlLabel)) value=\\"3\\" control={{...}} label=\\"three\\" disabled={true} className=\\"makeStyles-customLabel-2 makeStyles-radioLabel-3\\" onChange={[Function: onChange]} checked={false} />
+  </ForwardRef(RadioGroup)>
+  <Message text=\\"Error message\\" messageType=\\"error\\" position=\\"top-left\\" />
+</WithStyles(ForwardRef(FormControl))>"
+`;

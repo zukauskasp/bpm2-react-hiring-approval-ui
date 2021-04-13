@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tooltip expect to match latest snapshot 1`] = `
+"<div className=\\"tooltip tooltip-default tooltip-top-left\\">
+  This is some message
+   
+</div>"
+`;
